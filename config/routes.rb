@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root to: 'main#index'
   scope "api" do
     resources :categories, :only => [:index, :show, :create, :update, :destroy] do
-      resources :todos, :only => [:create, :update, :destroy]
+      resources :todos, :only => [:index, :create, :update, :destroy]
     end
   end
 end

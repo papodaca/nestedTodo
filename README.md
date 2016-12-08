@@ -32,5 +32,5 @@ foreman start -f Procfile.dev
 ```
 * Run tests
 ```bash
-# Add test task?
+bundle exec rspec
 ```
