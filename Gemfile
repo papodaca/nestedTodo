@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Support for react in rails
 gem "react_on_rails", "~> 6"
+# user authentication
+gem 'devise'
+# api views
+gem 'rabl'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
