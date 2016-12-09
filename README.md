@@ -6,7 +6,7 @@ Steps to run (was developed with ruby-2.3.0 and nodejs-4.4.5):
 
 Asuming you have [rvm](http://rvm.io/) and [nvm](https://github.com/creationix/nvm) installed on your system the steps below will get this application up and going.
 
-1. Install Ruby
+* Install Ruby
 ```bash
 rvm install ruby-2.3.0
 rvm use ruby-2.3.0
